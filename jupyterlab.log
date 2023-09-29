@@ -1,0 +1,404 @@
+# to enter (base) Anaconda environment, type:
+source activate $ANACONDA_DIR
+[I 2023-09-29 09:49:40.039 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2023-09-29 09:49:40.240 ServerApp] Package jupyter_lsp took 0.2008s to import
+[W 2023-09-29 09:49:40.240 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-09-29 09:49:40.356 ServerApp] Package jupyter_server_terminals took 0.1153s to import
+[I 2023-09-29 09:49:40.445 ServerApp] Package nbclassic took 0.0887s to import
+[W 2023-09-29 09:49:40.467 ServerApp] A `_jupyter_server_extension_points` function was not found in nbclassic. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-09-29 09:49:40.468 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2023-09-29 09:49:40.468 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2023-09-29 09:49:40.469 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2023-09-29 09:49:40.474 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2023-09-29 09:49:40.479 ServerApp] jupyterlab | extension was successfully linked.
+[I 2023-09-29 09:49:40.483 ServerApp] nbclassic | extension was successfully linked.
+[I 2023-09-29 09:49:44.640 ServerApp] notebook_shim | extension was successfully linked.
+[I 2023-09-29 09:49:47.925 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2023-09-29 09:49:47.928 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2023-09-29 09:49:47.929 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2023-09-29 09:49:48.029 LabApp] JupyterLab extension loaded from /feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyterlab
+[I 2023-09-29 09:49:48.029 LabApp] JupyterLab application directory is /feynman/work/dedip/lilas/wf274757/pyenv3/share/jupyter/lab
+[I 2023-09-29 09:49:48.029 LabApp] Extension Manager is 'pypi'.
+[I 2023-09-29 09:49:48.032 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2023-09-29 09:49:48.084 ServerApp] nbclassic | extension was successfully loaded.
+[I 2023-09-29 09:49:48.085 ServerApp] Serving notebooks from local directory: /feynman/work/dedip/lilas/wf274757/unrolling/notebooks
+[I 2023-09-29 09:49:48.085 ServerApp] Jupyter Server 2.5.0 is running at:
+[I 2023-09-29 09:49:48.085 ServerApp] http://10.2.105.159:8001/lab?token=93649c77159af2c3a8abed0d287ceac0fb40c1dc07aeb971
+[I 2023-09-29 09:49:48.085 ServerApp]     http://127.0.0.1:8001/lab?token=93649c77159af2c3a8abed0d287ceac0fb40c1dc07aeb971
+[I 2023-09-29 09:49:48.085 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2023-09-29 09:49:48.149 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///feynman/home/dedip/lilas/wf274757/.local/share/jupyter/runtime/jpserver-3385494-open.html
+    Or copy and paste one of these URLs:
+        http://10.2.105.159:8001/lab?token=93649c77159af2c3a8abed0d287ceac0fb40c1dc07aeb971
+        http://127.0.0.1:8001/lab?token=93649c77159af2c3a8abed0d287ceac0fb40c1dc07aeb971
+[I 2023-09-29 09:49:48.209 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+Unable to connect to VS Code server: Error in request.
+Error: connect ENOENT /tmp/vscode-ipc-7a295d2f-43b9-494b-afa7-04030054f931.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/tmp/vscode-ipc-7a295d2f-43b9-494b-afa7-04030054f931.sock'
+}
+[W 2023-09-29 10:00:50.652 ServerApp] 404 GET /hub/api (@132.166.40.68) 122.91ms referer=None
+[W 2023-09-29 10:00:50.653 ServerApp] 404 GET /hub/api (@132.166.40.68) 0.80ms referer=None
+[I 2023-09-29 10:00:51.230 NotebookApp] 302 GET /tree? (@132.166.40.68) 0.57ms
+[I 2023-09-29 10:00:51.231 NotebookApp] 302 GET /tree? (@132.166.40.68) 0.28ms
+[W 2023-09-29 10:00:51.275 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:00:51.304 ServerApp] 403 GET /api/kernelspecs?1695974451253 (@132.166.40.68) 28.87ms referer=None
+[W 2023-09-29 10:00:51.304 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:00:51.305 ServerApp] 403 GET /api/kernels?1695974451256 (@132.166.40.68) 0.96ms referer=None
+[W 2023-09-29 10:00:51.305 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:00:51.305 ServerApp] 403 GET /api/kernelspecs?1695974451261 (@132.166.40.68) 1.35ms referer=None
+[W 2023-09-29 10:00:51.306 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:00:51.306 ServerApp] 403 GET /api/kernels?1695974451262 (@132.166.40.68) 0.85ms referer=None
+[W 2023-09-29 10:00:51.306 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:00:51.307 ServerApp] 403 GET /api/kernels?1695974451263 (@132.166.40.68) 1.20ms referer=None
+[W 2023-09-29 10:00:51.307 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:00:51.308 ServerApp] 403 GET /api/sessions?1695974451264 (@132.166.40.68) 0.75ms referer=None
+[W 2023-09-29 10:00:51.308 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:00:51.308 ServerApp] 403 GET /api/kernels?1695974451265 (@132.166.40.68) 1.15ms referer=None
+[W 2023-09-29 10:00:51.309 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:00:51.309 ServerApp] 403 GET /api/sessions?1695974451266 (@132.166.40.68) 0.58ms referer=None
+[W 2023-09-29 10:00:51.312 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:00:51.312 ServerApp] 403 GET /api/kernelspecs?1695974451300 (@132.166.40.68) 0.52ms referer=None
+[W 2023-09-29 10:00:51.317 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:00:51.317 ServerApp] 403 GET /api/kernelspecs?1695974451305 (@132.166.40.68) 0.51ms referer=None
+[W 2023-09-29 10:42:50.848 ServerApp] 404 GET /hub/api (@132.166.43.82) 2.60ms referer=None
+[W 2023-09-29 10:42:50.848 ServerApp] 404 GET /hub/api (@132.166.43.82) 2.83ms referer=None
+[I 2023-09-29 10:42:50.871 NotebookApp] 302 GET /tree? (@132.166.43.82) 0.25ms
+[I 2023-09-29 10:42:50.871 NotebookApp] 302 GET /tree? (@132.166.43.82) 0.22ms
+[W 2023-09-29 10:42:50.908 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:42:50.909 ServerApp] 403 GET /api/kernelspecs?1695976970890 (@132.166.43.82) 1.18ms referer=None
+[W 2023-09-29 10:42:50.909 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:42:50.910 ServerApp] 403 GET /api/kernels?1695976970893 (@132.166.43.82) 0.75ms referer=None
+[W 2023-09-29 10:42:50.910 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:42:50.910 ServerApp] 403 GET /api/kernelspecs?1695976970895 (@132.166.43.82) 1.02ms referer=None
+[W 2023-09-29 10:42:50.911 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:42:50.911 ServerApp] 403 GET /api/kernels?1695976970897 (@132.166.43.82) 0.93ms referer=None
+[W 2023-09-29 10:42:50.911 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:42:50.912 ServerApp] 403 GET /api/sessions?1695976970898 (@132.166.43.82) 1.18ms referer=None
+[W 2023-09-29 10:42:50.912 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:42:50.912 ServerApp] 403 GET /api/kernels?1695976970899 (@132.166.43.82) 1.42ms referer=None
+[W 2023-09-29 10:42:50.913 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:42:50.913 ServerApp] 403 GET /api/kernels?1695976970896 (@132.166.43.82) 0.65ms referer=None
+[W 2023-09-29 10:42:50.913 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:42:50.913 ServerApp] 403 GET /api/sessions?1695976970900 (@132.166.43.82) 0.94ms referer=None
+[W 2023-09-29 10:42:50.934 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:42:50.934 ServerApp] 403 GET /api/kernelspecs?1695976970911 (@132.166.43.82) 0.51ms referer=None
+[W 2023-09-29 10:42:50.934 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:42:50.935 ServerApp] 403 GET /api/kernelspecs?1695976970914 (@132.166.43.82) 0.47ms referer=None
+[W 2023-09-29 10:48:00.867 ServerApp] 404 GET /hub/api (@132.166.43.82) 2.69ms referer=None
+[W 2023-09-29 10:48:00.867 ServerApp] 404 GET /hub/api (@132.166.43.82) 2.92ms referer=None
+[I 2023-09-29 10:48:01.050 NotebookApp] 302 GET /tree? (@132.166.43.82) 0.38ms
+[I 2023-09-29 10:48:01.051 NotebookApp] 302 GET /tree? (@132.166.43.82) 0.41ms
+[W 2023-09-29 10:48:01.101 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:48:01.103 ServerApp] 403 GET /api/kernelspecs?1695977281084 (@132.166.43.82) 1.79ms referer=None
+[W 2023-09-29 10:48:01.103 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:48:01.103 ServerApp] 403 GET /api/kernels?1695977281087 (@132.166.43.82) 0.71ms referer=None
+[W 2023-09-29 10:48:01.105 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:48:01.105 ServerApp] 403 GET /api/kernelspecs?1695977281089 (@132.166.43.82) 1.48ms referer=None
+[W 2023-09-29 10:48:01.105 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:48:01.106 ServerApp] 403 GET /api/kernels?1695977281090 (@132.166.43.82) 1.70ms referer=None
+[W 2023-09-29 10:48:01.106 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:48:01.106 ServerApp] 403 GET /api/kernels?1695977281092 (@132.166.43.82) 1.95ms referer=None
+[W 2023-09-29 10:48:01.106 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:48:01.107 ServerApp] 403 GET /api/sessions?1695977281093 (@132.166.43.82) 2.21ms referer=None
+[W 2023-09-29 10:48:01.107 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:48:01.107 ServerApp] 403 GET /api/kernels?1695977281094 (@132.166.43.82) 2.44ms referer=None
+[W 2023-09-29 10:48:01.107 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:48:01.107 ServerApp] 403 GET /api/sessions?1695977281095 (@132.166.43.82) 2.72ms referer=None
+[W 2023-09-29 10:48:01.113 ServerApp] wrote error: 'Forbidden'
+    Traceback (most recent call last):
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 1784, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/tornado/web.py", line 3269, in wrapper
+        url = self.get_login_url()
+              ^^^^^^^^^^^^^^^^^^^^
+      File "/feynman/home/dedip/lilas/wf274757/work/pyenv3/lib/python3.11/site-packages/jupyter_server/base/handlers.py", line 747, in get_login_url
+        raise web.HTTPError(403)
+    tornado.web.HTTPError: HTTP 403: Forbidden
+[W 2023-09-29 10:48:01.114 ServerApp] 403 GET /api/kernelspecs?1695977281105 (@132.166.43.82) 1.01ms referer=None
